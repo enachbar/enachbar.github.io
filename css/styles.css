@@ -1,7 +1,13 @@
 /* Your Website Styles */
 
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+
+
+
+body {
+	background: url("../img/stardust.png");
+	font-family: "adelle";
+	color: #30272B;
+
 }
+
