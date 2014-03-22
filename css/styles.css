@@ -14,11 +14,11 @@ body {
 
 /* Typography */
 
-h1 {font-size: 40px;
+h1 {font-size: 4em;
 	font-family: "adelle";
 	color: #FA665A;}
 
-h2 {font-size: 20px;
+h2 {font-size: 1em;
 	font-family: "adelle";
 	font-style: italic;
 	letter-spacing:1px;
@@ -27,9 +27,83 @@ h2 {font-size: 20px;
 	opacity:.8;} 
 
 h3 {font-family: "adelle-sans", sans-serif;
-	font-size: 20px;
+	font-size: 1em;
 	font-style: light-italic;
 	color:#8CBEB2;
 	letter-spacing:1px;}
+
+
+
+	
+
+
+
+
+/* Title Section */
+
+.title {background: #30272B; padding: 30px; margin:0 auto; text-align:center;}
+.title h1 {font-size:35px; letter-spacing:2px;}
+
+
+/* Parallax */
+
+.parallax-one {padding-top: 200px; 
+	padding-bottom: 200px; 
+	overflow: hidden; 
+	position: relative; 
+	width: 100%; 
+	background-image: url("../img/1.jpg"); 
+	background-attachment: fixed; 
+	background-size: cover; 
+	-moz-background-size: cover;
+	 -webkit-background-size: cover; 
+	 background-repeat: no-repeat; 
+	 background-position: center;}
+
+
+
+.parallax-two {padding-top: 200px; 
+	padding-bottom: 200px; 
+	overflow: hidden; 
+	position: relative; 
+	width: 100%; 
+	background-image: url("../img/4.jpg"); 
+	background-attachment: fixed; 
+	background-size: cover; 
+	-moz-background-size: cover;
+	-webkit-background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: center center;}
+
+
+.parallax-three {padding-top: 200px; 
+	padding-bottom: 200px; 
+	overflow: hidden; 
+	position: relative; 
+	width: 100%; 
+	background-image: url("../img/2.jpg"); 
+	background-attachment: 
+	fixed; background-size: cover; 
+	-moz-background-size: cover; 
+	-webkit-background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: center;}
+
+
+.parallax-four {padding-top: 200px; 
+	padding-bottom: 200px; 
+	overflow: hidden; 
+	position: relative; 
+	width: 100%; 
+	background-image: url("../img/3.jpg"); 
+	background-attachment: fixed; 
+	background-size: cover;
+	-moz-background-size: cover; 
+	-webkit-background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: center center;}
+
+
+
 
 
