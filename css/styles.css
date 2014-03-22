@@ -16,13 +16,15 @@ body {
 
 h1 {font-size: 4em;
 	font-family: "adelle";
-	color: #FA665A;}
+	color: #FA665A;
+	margin-top: 0px;
+	}
 
 
 
 h3 {font-family: "adelle-sans", sans-serif;
-	font-size: 1em;
-	font-style: light-italic;
+	font-size: 1.5em;
+	font-style: italic;
 	color:#8CBEB2;
 	letter-spacing:1px;}
 
@@ -63,8 +65,9 @@ a:hover {
 
 /* Title Section */
 
+
+
 .title {background: #30272B; padding: 30px; margin:0 auto; text-align:center;}
-.title h1 {font-size:35px; letter-spacing:2px; margin-top: 0px}
 
 
 .logo{
