@@ -31,14 +31,30 @@ h3 {font-family: "adelle-sans", sans-serif;
 	margin-top: 0px;}
 
 
-a {
+h3 + a {
+	font-family: "adelle-sans", sans-serif;
+	font-size: 1em;
+	font-style: light-italic;
+	color: white;
+	letter-spacing:1px;
+	margin-top: 0px;}
 
+
+
+
+h3 + a:hover {
+	font-family: "adelle-sans", sans-serif;
+	font-size: 1em;
+	font-style: light-italic;
+	color: #FA665A;
+	letter-spacing:1px;
+	margin-top: 0px;}
+
+
+a {
 	text-decoration: none;
 	text-align: center;
-	padding:200px;
-    width:1000px;
-    height:469px;
-    font-size: 4em;
+	font-size: 4em;
 	font-family: "adelle";
 	font-style: italic;
 	letter-spacing:1px;
@@ -52,9 +68,6 @@ a {
 a:hover {
     text-decoration: none;
 	text-align: center;
-	padding:200px;
-    width:1000px;
-    height:469px;
     font-size: 4em;
 	font-family: "adelle";
 	font-style: italic;
