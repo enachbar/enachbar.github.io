@@ -163,7 +163,11 @@ a:hover {
 
 
 
-
+footer {
+	text-align: left;
+	font-size: 10px;
+	color: gray;
+}
 
 
 
