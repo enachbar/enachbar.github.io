@@ -3,11 +3,33 @@
 
 
 
-
 body {
 	background: url("../img/stardust.png");
 	font-family: "adelle";
 	color: #30272B;
 
 }
+
+
+
+/* Typography */
+
+h1 {font-size: 40px;
+	font-family: "adelle";
+	color: #FA665A;}
+
+h2 {font-size: 20px;
+	font-family: "adelle";
+	font-style: italic;
+	letter-spacing:1px;
+	color: white; 
+	z-index:10; 
+	opacity:.8;} 
+
+h3 {font-family: "adelle-sans", sans-serif;
+	font-size: 20px;
+	font-style: light-italic;
+	color:#8CBEB2;
+	letter-spacing:1px;}
+
 
