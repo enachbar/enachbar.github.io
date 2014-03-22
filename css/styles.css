@@ -106,7 +106,7 @@ a:hover {
 	overflow: hidden; 
 	position: relative; 
 	width: 100%; 
-	background-image: url("../img/1.jpg"); 
+	background-image: url("../img/me.jpg"); 
 	background-attachment: fixed; 
 	background-size: cover; 
 	-moz-background-size: cover;
@@ -121,7 +121,7 @@ a:hover {
 	overflow: hidden; 
 	position: relative; 
 	width: 100%; 
-	background-image: url("../img/4.jpg"); 
+	background-image: url("../img/flower.jpg"); 
 	background-attachment: fixed; 
 	background-size: cover; 
 	-moz-background-size: cover;
