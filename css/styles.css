@@ -18,21 +18,24 @@ h1 {font-size: 4em;
 	font-family: "adelle";
 	color: #FA665A;
 	margin-top: 0px;
+	margin-bottom: 0px;
 	}
 
 
 
 h3 {font-family: "adelle-sans", sans-serif;
 	font-size: 1.5em;
-	font-style: italic;
+	font-style: light-italic;
 	color:#8CBEB2;
-	letter-spacing:1px;}
+	letter-spacing:1px;
+	margin-top: 0px;}
 
 
 a {
 
 	text-decoration: none;
 	text-align: center;
+	padding:200px;
     width:1000px;
     height:469px;
     font-size: 4em;
@@ -45,16 +48,21 @@ a {
 }
 
 
+
 a:hover {
-    text-decoration: none
-    font-size: 1em;
+    text-decoration: none;
+	text-align: center;
+	padding:200px;
+    width:1000px;
+    height:469px;
+    font-size: 4em;
 	font-family: "adelle";
 	font-style: italic;
 	letter-spacing:1px;
 	color: #FA665A; 
 	z-index:10; 
 	opacity:.8;
-    }
+}
 
 
 
@@ -67,7 +75,7 @@ a:hover {
 
 
 
-.title {background: #30272B; padding: 30px; margin:0 auto; text-align:center;}
+.title {background: #30272B; padding: 100px; margin: auto; text-align:center;}
 
 
 .logo{
