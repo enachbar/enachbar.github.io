@@ -4,9 +4,15 @@
 
 
 body {
-	background: url("../img/stardust.png");
-	font-family: "adelle";
-	color: #30272B;
+	
+	
+font-family: "proxima-nova";
+line-height: 1.8em;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 400;
+font-style: normal;
+	
 
 }
 
@@ -14,68 +20,59 @@ body {
 
 /* Typography */
 
-h1 {font-size: 4em;
-	font-family: "adelle";
+h1 {font-size: 3em;
+	font-family: "Proxima-Nova";
+	text-transform: uppercase;
+	letter-spacing: 2px;
 	color: #FA665A;
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 4px;
 	}
 
 
 
-h3 {font-family: "adelle-sans", sans-serif;
-	font-size: 1.5em;
-	font-style: light-italic;
-	color:#8CBEB2;
-	letter-spacing:1px;
-	margin-top: 0px;}
-
-
-h3 + a {
-	font-family: "adelle-sans", sans-serif;
+h3 {font-family: "Proxima-Nova", sans-serif;
 	font-size: 1em;
-	font-style: light-italic;
-	color: white;
-	letter-spacing:1px;
+	font-style: light;
+	color: black;
+	letter-spacing:2px;
 	margin-top: 0px;
-	}
+	opacity:.8;
+}
 
 
 
 
-h3 + a:hover {
-	font-family: "adelle-sans", sans-serif;
-	font-size: 1em;
-	font-style: light-italic;
-	color: #FA665A;
-	letter-spacing:1px;
-	margin-top: 0px;}
 
 
 a {
 	text-decoration: none;
+	
 	text-align: center;
-	font-size: 4em;
-	font-family: "adelle";
-	font-style: italic;
+	font-size: 1em;
+	font-family: "Proxima-Nova";
+	font-style: light;
 	letter-spacing:1px;
-	color: white; 
-	z-index:10; 
+	color: black; 
 	opacity:.8;
+	padding: 3px;
+	margin: 20px;
 }
 
 
 
 a:hover {
     text-decoration: none;
+    
 	text-align: center;
-    font-size: 4em;
-	font-family: "adelle";
-	font-style: italic;
+    font-size: 1em;
+	font-family: "Proxima-Nova";
+	font-style:light;
 	letter-spacing:1px;
-	color: #FA665A; 
-	z-index:10; 
+	color: #8CBEB2;
 	opacity:.8;
+	padding: 3px;
+	margin: 20px;
 }
 
 
@@ -89,7 +86,7 @@ a:hover {
 
 
 
-.title {background: #30272B; padding: 100px; margin: auto; text-align:center;}
+.title { padding: 100px; margin: auto; text-align:center;}
 
 
 .logo{
@@ -97,80 +94,6 @@ a:hover {
 	height:200px;
 	margin-bottom: 0px;
 }
-
-
-/* Parallax */
-
-.parallax-one {padding-top: 200px; 
-	padding-bottom: 200px; 
-	overflow: hidden; 
-	position: relative; 
-	width: 100%; 
-	background-image: url("../img/me.jpg"); 
-	background-attachment: fixed; 
-	background-size: cover; 
-	-moz-background-size: cover;
-	 -webkit-background-size: cover; 
-	 background-repeat: no-repeat; 
-	 background-position: center;}
-
-
-
-.parallax-two {padding-top: 200px; 
-	padding-bottom: 200px; 
-	overflow: hidden; 
-	position: relative; 
-	width: 100%; 
-	background-image: url("../img/flower.jpg"); 
-	background-attachment: fixed; 
-	background-size: cover; 
-	-moz-background-size: cover;
-	-webkit-background-size: cover; 
-	background-repeat: no-repeat; 
-	background-position: center center;}
-
-
-.parallax-three {padding-top: 200px; 
-	padding-bottom: 200px; 
-	overflow: hidden; 
-	position: relative; 
-	width: 100%; 
-	background-image: url("../img/2.jpg"); 
-	background-attachment: 
-	fixed; background-size: cover; 
-	-moz-background-size: cover; 
-	-webkit-background-size: cover; 
-	background-repeat: no-repeat; 
-	background-position: center;}
-
-
-.parallax-four {padding-top: 200px; 
-	padding-bottom: 200px; 
-	overflow: hidden; 
-	position: relative; 
-	width: 100%; 
-	background-image: url("../img/3.jpg"); 
-	background-attachment: fixed; 
-	background-size: cover;
-	-moz-background-size: cover; 
-	-webkit-background-size: cover; 
-	background-repeat: no-repeat; 
-	background-position: center center;}
-
-
-
-
-
-
-
-footer {
-	text-align: left;
-	font-size: 10px;
-	color: gray;
-}
-
-
-
 
 
 
@@ -184,7 +107,7 @@ footer {
 	/* Typography */
 
 h1 {font-size: 2em;
-	font-family: "adelle";
+	font-family: "Proxima-Nova";
 	color: #FA665A;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -193,10 +116,10 @@ h1 {font-size: 2em;
 
 
 
-h3 {font-family: "adelle-sans", sans-serif;
+h3 {font-family: "Proxima-Nova", sans-serif;
 position: relative;
 	font-size: 1em;
-	font-style: light-italic;
+	font-style: light;
 	color:#8CBEB2;
 	letter-spacing:1px;
 	margin-top: 0px;
@@ -205,10 +128,10 @@ position: relative;
 
 
 h3 + a {
-	font-family: "adelle-sans", sans-serif;
+	font-family: "Proxima-Nova", sans-serif;
 	position: relative;
 	font-size: .5em;
-	font-style: light-italic;
+	font-style: light;
 	color: white;
 	letter-spacing:1px;
 	margin-top: 0px;
@@ -218,9 +141,9 @@ h3 + a {
 
 
 h3 + a:hover {
-	font-family: "adelle-sans", sans-serif;
+	font-family: "Proxima-Nova", sans-serif;
 	font-size: .5em;
-	font-style: light-italic;
+	font-style: light;
 	color: #FA665A;
 	letter-spacing:1px;
 	margin-top: 0px;
@@ -233,7 +156,7 @@ a {
 	float: left;
 	text-align: center;
 	font-size: 2em;
-	font-family: "adelle";
+	font-family: "Proxima-Nova";
 	font-style: italic;
 	letter-spacing:1px;
 	color: white; 
@@ -250,7 +173,7 @@ a:hover {
 	float: left;
 	text-align: center;
     font-size: 2em;
-	font-family: "adelle";
+	font-family: "Proxima-Nova";
 	font-style: italic;
 	letter-spacing:1px;
 	color: #FA665A; 
@@ -269,7 +192,7 @@ a:hover {
 
 
 
-.title {background: #30272B; padding: 100px; margin: auto; text-align:center;}
+.title {padding: 100px; margin: auto; text-align:center;}
 
 
 .logo{
@@ -279,8 +202,8 @@ a:hover {
 	float: left;
 }
   
-  .parallax-one, .parallax-two, .parallax-three, .parallax-four {padding-top:100px; padding-bottom:100px;}
-}
+
+
 
 
 @media screen and (max-width: 580px) {
@@ -289,7 +212,7 @@ a:hover {
 		/* Typography */
 
 h1 {font-size: 1em;
-	font-family: "adelle";
+	font-family: "Proxima-Nova";
 	color: #FA665A;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -299,9 +222,9 @@ h1 {font-size: 1em;
 
 
 
-h3 {font-family: "adelle-sans", sans-serif;
+h3 {font-family: "Proxima-Nova", sans-serif;
 	font-size: .5em;
-	font-style: light-italic;
+	font-style: Regular;
 	color:#8CBEB2;
 	letter-spacing:1px;
 	margin-top: 0px;
@@ -310,9 +233,9 @@ h3 {font-family: "adelle-sans", sans-serif;
 
 
 h3 + a {
-	font-family: "adelle-sans", sans-serif;
+	font-family: "Proxima-Nova", sans-serif;
 	font-size: .25em;
-	font-style: light-italic;
+	font-style: light;
 	color: white;
 	letter-spacing:1px;
 	margin-top: 0px;
@@ -322,9 +245,9 @@ h3 + a {
 
 
 h3 + a:hover {
-	font-family: "adelle-sans", sans-serif;
+	font-family: "Proxima-Nova", sans-serif;
 	font-size: .25em;
-	font-style: light-italic;
+	font-style: light;
 	color: #FA665A;
 	letter-spacing:1px;
 	margin-top: 0px;
@@ -337,7 +260,7 @@ a {
 	float: left;
 	text-align: center;
 	font-size: 1em;
-	font-family: "adelle";
+	font-family: "Proxima-Nova";
 	font-style: italic;
 	letter-spacing:1px;
 	color: white; 
@@ -354,7 +277,7 @@ a:hover {
 	float: left;
 	text-align: center;
     font-size: 1em;
-	font-family: "adelle";
+	font-family: "Proxima-Nova";
 	font-style: italic;
 	letter-spacing:1px;
 	color: #FA665A; 
@@ -374,7 +297,7 @@ a:hover {
 
 
 
-.title {background: #30272B; padding: 100px; margin: auto; text-align:center;}
+.title {padding: 100px; margin: auto; text-align:center;}
 
 
 .logo{
@@ -383,8 +306,5 @@ a:hover {
 	margin-bottom: 0px;
 
 }
-  
-  .parallax-one, .parallax-two, .parallax-three, .parallax-four {padding-top:100px; padding-bottom:100px;}
-	
-}
+ 
 
